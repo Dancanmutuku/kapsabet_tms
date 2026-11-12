@@ -1,0 +1,14 @@
+body{font-family:Arial,Helvetica,sans-serif;margin:0;color:#222;background:#fff;line-height:1.4}
+header{background:#333;color:#fff;padding:10px 16px;display:flex;flex-wrap:wrap;gap:16px;align-items:center}
+nav a{color:#fff;margin-right:14px;text-decoration:none}nav a:hover{text-decoration:underline}
+main{max-width:960px;margin:16px auto;padding:0 12px}
+h1{font-size:1.4em}h2{font-size:1.1em;margin-top:24px}
+table{border-collapse:collapse;width:100%;margin:8px 0}th,td{border:1px solid #bbb;padding:6px 8px;text-align:left}th{background:#eee}
+form{margin:8px 0}label{display:block;margin-top:8px;font-weight:bold}
+input,select,textarea,button{font:inherit;padding:8px;min-height:44px;box-sizing:border-box;border:1px solid #888;background:#fff}
+input,select,textarea{width:100%;max-width:420px}input[type=checkbox]{width:auto;min-height:0}
+button{background:#333;color:#fff;cursor:pointer;margin-top:10px;width:auto}
+.msg{border:1px solid #333;padding:8px;margin:10px 0}.err{border:1px solid #333;background:#eee;padding:8px;margin:10px 0}
+.seats span{display:inline-block;border:1px solid #333;padding:10px;margin:3px;min-width:44px;text-align:center}
+.seats span.taken{background:#ccc}.row{display:flex;flex-wrap:wrap;gap:16px}.row>div{flex:1;min-width:280px}
+@media(max-width:600px){th,td{padding:4px;font-size:.9em}}
